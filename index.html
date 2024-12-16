@@ -4,49 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gummy's Website</title>
-    <style>
-        #socials{
-            margin: auto;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="backgroundImage"></div>
+    <div id="pfp"><img src="https://avatars.githubusercontent.com/u/136021164?v=4"></div>
+    
     <div id="socials">
         <h1>Socials</h1>
-        <ul>
-            <li> <a href="https://www.youtube.com/@mr._gummy">youtube</a></li>
-            <li> <a href="https://www.twitch.tv/mr0gummy">twitch</a></li>
-            <li> <a href="https://mr0gummy.bsky.social">bluesky</a></li>
-        </ul>
+        <div class="list1 socialEntry"> <a href="https://www.youtube.com/@mr0gummy">youtube</a></div>
+        <div class="list2 socialEntry"> <a href="https://www.twitch.tv/mr0gummy">twitch</a></div>
+        <div class="list1 socialEntry"> <a href="https://mr0gummy.bsky.social">bluesky</a></div>
+        <div class="list2 socialEntry"> <a href="https://modrinth.com/user/mr0gummy">modrinth</a></div>
     </div>
 
-    <p onclick="dontClick()">don't click this grrrrr!</p>
-    <script>
-        function dontClick() {
-            
+    <div id="modrinthProjects"></div>
 
-            switch (this.innerHTML) {
-                case "don't click this grrrrr!": {
-                    this.innerHTML = "I told you not to click this grrrr!"
-                }
-                case "I told you not to click this grrrr!": {
-                    this.innerHTML = "really stop clicking this omg-"
-                }
-                case "really stop clicking this omg-": {
-                    this.innerHTML = "please stop it's not to late"
-                }
-                case "please stop it's not to late": {
-                    this.innerHTML = "ok now it really is to late grrrrr!!!!!!"
-                }
-                case "don't click this grrrrr!": {
-                    this.innerHTML = "website: *stabs you*"
-                }
-                default: {
-                    this.innerHTML = "don't click this grrrrr!"
-                }
-            }
-        }
-    </script>
+    <p onclick="dontClick()">don't click this grrrrr!</p>
+
+    <script src="script.js"></script>
 </body>
 </html>

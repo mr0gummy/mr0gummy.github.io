@@ -1,0 +1,41 @@
+body {
+    font-family:sans-serif;
+    color: white;
+}
+#pfp {
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgb(85, 39, 92);
+    width: 8.5%;
+}
+
+#socials {
+    border-radius: 25px;
+    background-color: rgb(221, 119, 237);
+    width: 25%;
+    padding: 0.5%;
+    margin: auto;
+    text-align: center;
+}
+.backgroundImage {
+    background-image: url(/img/background.png);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list1 {
+    background-color: rgb(85, 39, 92);
+}
+.list2 {
+    background-color: rgb(155, 70, 168);
+}
+.socialEntry {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    
+}
