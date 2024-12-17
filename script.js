@@ -40,7 +40,7 @@ function getModrinthProjects(username){
         .then((data) => {
             a = data.length
             while (a != 0) {
-                document.getElementById("modrinthProjects").innerHTML += data[a].title;
+                document.getElementById("modrinthProjects").innerHTML += data[a];
                 a = a - 1 
             }
         })

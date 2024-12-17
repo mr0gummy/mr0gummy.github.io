@@ -8,19 +8,23 @@
 </head>
 <body>
     <div class="backgroundImage"></div>
-    <div id="pfp"><img src="https://avatars.githubusercontent.com/u/136021164?v=4"></div>
+    <div id="user">
+        <img id="pfp" src="https://avatars.githubusercontent.com/u/136021164?v=4">
+        <h1 id="username">mr0gummy</h1>
+    </div>
     
     <div id="socials">
         <h1>Socials</h1>
-        <div class="list1 socialEntry"> <a href="https://www.youtube.com/@mr0gummy">youtube</a></div>
-        <div class="list2 socialEntry"> <a href="https://www.twitch.tv/mr0gummy">twitch</a></div>
-        <div class="list1 socialEntry"> <a href="https://mr0gummy.bsky.social">bluesky</a></div>
-        <div class="list2 socialEntry"> <a href="https://modrinth.com/user/mr0gummy">modrinth</a></div>
+        <a href="https://www.youtube.com/@mr0gummy"><div class="list1 socialEntry">YouTube</div></a>
+        <a href="https://www.twitch.tv/mr0gummy"><div class="list2 socialEntry">Twitch</div></a>
+        <a href="https://mr0gummy.bsky.social"><div class="list1 socialEntry">Bluesky</div></a>
+        <a href="https://github.com/mr0gummy"><div class="list2 socialEntry">Github</div></a>
+        <a href="https://modrinth.com/user/mr0gummy"><div class="list1 socialEntry">Modrinth</div></a>
     </div>
 
     <div id="modrinthProjects"></div>
 
-    <p onclick="dontClick()">don't click this grrrrr!</p>
+    <button onclick="dontClick()">don't click this grrrrr!</button>
 
     <script src="script.js"></script>
 </body>

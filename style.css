@@ -1,22 +1,49 @@
 body {
     font-family:sans-serif;
     color: white;
+ 
+    height: 100%;
+    background-color: rgb(44, 19, 48);
 }
-#pfp {
+* {
+    box-sizing: border-box;
+}
+#user {
     text-align: center;
     margin: auto;
     border-radius: 25px;
-    background-color: rgb(85, 39, 92);
-    width: 8.5%;
+    padding: 12px;
+    padding-bottom: -10px;
+    background-color: rgba(85, 39, 92, 0.5);
+    width: 25%;
+}
+#username{
+    font-size: 310%;
 }
 
+#pfp {
+    width:150px;
+}
 #socials {
     border-radius: 25px;
-    background-color: rgb(221, 119, 237);
+    background-color: rgb(221, 119, 237, 0.5);
     width: 25%;
-    padding: 0.5%;
+    padding: 1%;
     margin: auto;
     text-align: center;
+}
+.list1 {
+    background-color: rgb(85, 39, 92, 0.5);
+}
+.list2 {
+    background-color: rgb(155, 70, 168, 0.5);
+}
+.socialEntry {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 6.5px;
+    
 }
 .backgroundImage {
     background-image: url(/img/background.png);
@@ -26,16 +53,4 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.list1 {
-    background-color: rgb(85, 39, 92);
-}
-.list2 {
-    background-color: rgb(155, 70, 168);
-}
-.socialEntry {
-    color: white;
-    text-decoration: none;
-    font-size: x-large;
-    
 }
