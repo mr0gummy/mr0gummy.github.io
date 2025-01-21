@@ -1,21 +1,33 @@
-*{
-    font-family: "Silkscreen", serif;
-    box-sizing: border-box;
+* {
+  font-family: "Silkscreen", serif;
+  box-sizing: border-box;
 }
 body {
-    background-image: url(/img/background.png);
-    font-family:sans-serif;
-    color: white;
- 
-    height: 100%;
-    background-color: rgb(44, 19, 48);
+  background-image: url(/img/background.png);
+  font-family: sans-serif;
+  color: white;
+
+  height: 100%;
+  background-color: rgb(44, 19, 48);
 }
 #root {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#profile {
+@media screen and (max-width: 1086px) {
+  #profile {
+    border-radius: 25px;
+    background-color: rgb(221, 119, 237, 0.5);
+    background-color: rgb(221, 119, 237, 0.5);
+    width: 95%;
+    padding: 0.5%;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1086px) {
+  #profile {
     border-radius: 25px;
     background-color: rgb(221, 119, 237, 0.5);
     background-color: rgb(221, 119, 237, 0.5);
@@ -23,41 +35,45 @@ body {
     padding: 0.5%;
     margin: auto;
     text-align: center;
+  }
 }
 #socials {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
 #about {
-    font-size: x-large;
+  font-size: x-large;
 }
 .backgroundImage {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .list1 {
-    background-color: rgb(85, 39, 92, 0.5);
+  background-color: rgb(85, 39, 92, 0.5);
 }
 .list2 {
-    background-color: rgb(155, 70, 168, 0.5);
+  background-color: rgb(155, 70, 168, 0.5);
 }
 .socialEntry {
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    font-size: x-large;
-    padding: 0.5%;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 0.5%;
 }
 
 .socialEntry:hover {
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    font-size: x-large;
-    padding: 0.5%;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 0.5%;
+}
+
+.button:hover {
+  scale: 110%;
 }
