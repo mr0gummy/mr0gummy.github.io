@@ -1,4 +1,8 @@
+*{
+    font-family: "Silkscreen", serif;
+}
 body {
+    background-image: url(/img/background.png);
     font-family:sans-serif;
     color: white;
 }
@@ -6,20 +10,29 @@ body {
     text-align: center;
     margin: auto;
     border-radius: 25px;
-    background-color: rgb(85, 39, 92);
+    background-color: rgba(85, 39, 92, 0.5);
     width: 8.5%;
 }
 
-#socials {
+#root {
+    margin-top: 50px;
     border-radius: 25px;
-    background-color: rgb(221, 119, 237);
+    background-color: rgb(221, 119, 237, 0.5);
     width: 25%;
     padding: 0.5%;
+    margin-top: 35%;
     margin: auto;
     text-align: center;
 }
+#socials {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+#about {
+    font-size: x-large;
+}
 .backgroundImage {
-    background-image: url(/img/background.png);
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 100%;
@@ -28,14 +41,23 @@ body {
     background-size: cover;
 }
 .list1 {
-    background-color: rgb(85, 39, 92);
+    background-color: rgb(85, 39, 92, 0.5);
 }
 .list2 {
-    background-color: rgb(155, 70, 168);
+    background-color: rgb(155, 70, 168, 0.5);
 }
 .socialEntry {
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     font-size: x-large;
-    
+    padding: 0.5%;
+}
+
+.socialEntry:hover {
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 0.5%;
 }

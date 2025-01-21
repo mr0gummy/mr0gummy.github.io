@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gummy's Website</title>
+    <title>mr0gummy.dev</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="backgroundImage"></div>
-    <div id="pfp"><img src="https://avatars.githubusercontent.com/u/136021164?v=4"></div>
     
-    <div id="socials">
+    <div id="root">
+        <img src="https://avatars.githubusercontent.com/u/136021164?v=4">
         <h1>Socials</h1>
-        <div class="list1 socialEntry"> <a href="https://www.youtube.com/@mr0gummy">youtube</a></div>
-        <div class="list2 socialEntry"> <a href="https://www.twitch.tv/mr0gummy">twitch</a></div>
-        <div class="list1 socialEntry"> <a href="https://mr0gummy.bsky.social">bluesky</a></div>
-        <div class="list2 socialEntry"> <a href="https://modrinth.com/user/mr0gummy">modrinth</a></div>
+        <div id="socials">
+            <div class="list1 socialEntry"> <a href="https://www.youtube.com/@mr0gummy"><img src="./img/youtube.png"></a></div>
+            <div class="list2 socialEntry"> <a href="https://www.twitch.tv/mr0gummy"><img src="./img/twitch.png"></a></div>
+            <div class="list1 socialEntry"> <a href="https://bsky.app/profile/mr0gummy.dev"><img src="./img/bluesky.png"></a></div>
+            <div class="list2 socialEntry"> <a href="https://modrinth.com/user/mr0gummy"><img src="./img/modrinth.png"></a></div>
+            <div class="list1 socialEntry"> <a href="https://ko-fi.com/mr0gummy"><img src="./img/ko-fi.png"></a></div>
+        </div>
+        <p id="about">Hi, my name is <strong>Gummy</strong> and I like to play Minecraft, and I make texture packs too. Bye. o/
+        </p>
     </div>
-
-    <div id="modrinthProjects"></div>
-
-    <p onclick="dontClick()">don't click this grrrrr!</p>
-
     <script src="script.js"></script>
 </body>
 </html>
