@@ -5,8 +5,14 @@ body {
     background-image: url(/img/background.png);
     font-family:sans-serif;
     color: white;
+ 
+    height: 100%;
+    background-color: rgb(44, 19, 48);
 }
-#pfp {
+* {
+    box-sizing: border-box;
+}
+#user {
     text-align: center;
     margin: auto;
     border-radius: 25px;
@@ -17,6 +23,7 @@ body {
 #root {
     margin-top: 50px;
     border-radius: 25px;
+    background-color: rgb(221, 119, 237, 0.5);
     background-color: rgb(221, 119, 237, 0.5);
     width: 25%;
     padding: 0.5%;
